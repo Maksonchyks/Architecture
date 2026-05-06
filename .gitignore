@@ -1,0 +1,15 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+node_modules/
+.DS_Store
+.env
+*.db
+*.db-shm
+*.db-wal
