@@ -7,4 +7,5 @@ public class Product
     public string Description { get; set; } = string.Empty;
     public DateTime DateCreated { get; set; }
     public string CreatedByUser { get; set; } = string.Empty;
+    public decimal UnitPrice { get; set; }
 }
