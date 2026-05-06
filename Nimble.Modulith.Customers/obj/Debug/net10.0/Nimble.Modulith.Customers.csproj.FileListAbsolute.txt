@@ -1,0 +1,17 @@
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\bin\Debug\net10.0\Nimble.Modulith.Customers.deps.json
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\bin\Debug\net10.0\Nimble.Modulith.Customers.runtimeconfig.json
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\bin\Debug\net10.0\Nimble.Modulith.Customers.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\bin\Debug\net10.0\Nimble.Modulith.Customers.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\bin\Debug\net10.0\Nimble.Modulith.Customers.Contracts.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\bin\Debug\net10.0\Nimble.Modulith.Customers.Contracts.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.csproj.AssemblyReference.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.AssemblyInfoInputs.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.AssemblyInfo.cs
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.csproj.CoreCompileInputs.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.M.94E730F5.Up2Date
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\refint\Nimble.Modulith.Customers.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\Nimble.Modulith.Customers.genruntimeconfig.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Customers\obj\Debug\net10.0\ref\Nimble.Modulith.Customers.dll

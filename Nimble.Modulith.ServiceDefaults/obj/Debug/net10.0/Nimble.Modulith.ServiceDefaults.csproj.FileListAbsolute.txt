@@ -1,0 +1,12 @@
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\bin\Debug\net10.0\Nimble.Modulith.ServiceDefaults.deps.json
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\bin\Debug\net10.0\Nimble.Modulith.ServiceDefaults.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\bin\Debug\net10.0\Nimble.Modulith.ServiceDefaults.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.csproj.AssemblyReference.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.AssemblyInfoInputs.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.AssemblyInfo.cs
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\refint\Nimble.Modulith.ServiceDefaults.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\Nimble.Modulith.ServiceDefaults.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.ServiceDefaults\obj\Debug\net10.0\ref\Nimble.Modulith.ServiceDefaults.dll

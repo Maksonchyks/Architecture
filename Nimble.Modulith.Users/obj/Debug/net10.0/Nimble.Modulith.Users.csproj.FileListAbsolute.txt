@@ -1,0 +1,17 @@
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\bin\Debug\net10.0\Nimble.Modulith.Users.deps.json
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\bin\Debug\net10.0\Nimble.Modulith.Users.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\bin\Debug\net10.0\Nimble.Modulith.Users.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\bin\Debug\net10.0\Nimble.Modulith.Users.Contracts.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\bin\Debug\net10.0\Nimble.Modulith.Users.Contracts.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.csproj.AssemblyReference.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.AssemblyInfoInputs.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.AssemblyInfo.cs
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.csproj.CoreCompileInputs.cache
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.M.5EF4861C.Up2Date
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\refint\Nimble.Modulith.Users.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.pdb
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\ref\Nimble.Modulith.Users.dll
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\bin\Debug\net10.0\Nimble.Modulith.Users.runtimeconfig.json
+D:\Chnu\4course\2semestr\Architecture\lab1\Nimble.Modulith.Users\obj\Debug\net10.0\Nimble.Modulith.Users.genruntimeconfig.cache

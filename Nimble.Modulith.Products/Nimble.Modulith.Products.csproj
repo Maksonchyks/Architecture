@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+
+		<PackageReference Include="FastEndpoints" />
+		<PackageReference Include="Serilog.AspNetCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
+		<PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Nimble.Modulith.Products.Contracts\Nimble.Modulith.Products.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>
