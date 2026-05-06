@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Nimble.Modulith.Customers.Domain.Interfaces;
+using Nimble.Modulith.Customers.Infrastructure;
 using Nimble.Modulith.Customers.Infrastructure.Data;
 using Serilog;
 
@@ -20,6 +21,9 @@ public static class CustomersModuleExtensions
         // Register repositories
         builder.Services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
         builder.Services.AddScoped(typeof(IReadRepository<>), typeof(EfReadRepository<>));
+
+        // Register authorization service
+        builder.Services.AddScoped<ICustomerAuthorizationService, CustomerAuthorizationService>();
 
         logger.Information("{Module} module services registered",
             nameof(CustomersModuleExtensions).Replace("ModuleExtensions", ""));

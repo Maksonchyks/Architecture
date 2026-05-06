@@ -10,4 +10,15 @@ public class UsersDbContext : IdentityDbContext<IdentityUser>
         : base(options)
     {
     }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        // Apply Users module specific configurations
+        builder.HasDefaultSchema("Users");
+
+        // Auto-discover all IEntityTypeConfiguration<T> — picks up IdentityRoleConfig for role seeding
+        builder.ApplyConfigurationsFromAssembly(typeof(UsersDbContext).Assembly);
+    }
 }
