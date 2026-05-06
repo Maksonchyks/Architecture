@@ -41,7 +41,7 @@ public class AddItem(IMediator mediator, ICustomerAuthorizationService authServi
             return;
         }
 
-        var result = await mediator.Send(new AddOrderItemCommand(orderId, req.ProductId, req.ProductName, req.Quantity, req.UnitPrice), ct);
+        var result = await mediator.Send(new AddOrderItemCommand(orderId, req.ProductId, req.Quantity), ct);
 
         if (!result.IsSuccess)
         {

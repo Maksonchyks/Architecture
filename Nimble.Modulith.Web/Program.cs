@@ -6,6 +6,7 @@ using Serilog;
 using FastEndpoints;
 using FastEndpoints.Security;
 using FastEndpoints.Swagger;
+using Microsoft.AspNetCore.Identity;
 
 var logger = Log.Logger = new LoggerConfiguration()
   .Enrich.FromLogContext()

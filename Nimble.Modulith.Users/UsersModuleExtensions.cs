@@ -48,7 +48,7 @@ public static class UsersModuleExtensions
         var context = scope.ServiceProvider.GetRequiredService<UsersDbContext>();
         await context.Database.EnsureCreatedAsync();
 
-        // Seed roles programmatically — idempotent, safe to run on every startup
+        // Seed roles programmatically
         var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
         string[] roles = ["Admin", "Customer"];
 
@@ -59,6 +59,17 @@ public static class UsersModuleExtensions
                 await roleManager.CreateAsync(new IdentityRole(role));
             }
         }
+
+        // Seed requested admin user
+        var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+        var email = "maks@gmail.com";
+        var user = await userManager.FindByEmailAsync(email);
+        if (user == null)
+        {
+            user = new IdentityUser { UserName = email, Email = email, EmailConfirmed = true };
+            await userManager.CreateAsync(user, "Maks1234");
+        }
+        await userManager.AddToRoleAsync(user, "Admin");
 
         return app;
     }
