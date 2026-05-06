@@ -12,6 +12,7 @@
     <PackageVersion Include="FastEndpoints" Version="8.1.0" />
     <PackageVersion Include="FastEndpoints.Security" Version="8.1.0" />
     <PackageVersion Include="FastEndpoints.Swagger" Version="8.1.0" />
+    <PackageVersion Include="MailKit" Version="4.16.0" />
     <PackageVersion Include="Mediator.Abstractions" Version="3.0.2" />
     <PackageVersion Include="Mediator.SourceGenerator" Version="3.0.2">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

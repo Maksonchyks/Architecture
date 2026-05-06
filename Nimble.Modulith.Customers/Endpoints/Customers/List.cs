@@ -9,12 +9,12 @@ public class List(IMediator mediator) : EndpointWithoutRequest<List<CustomerResp
     public override void Configure()
     {
         Get("/customers");
-        AllowAnonymous();
+        Roles("Admin");
         Tags("customers");
         Summary(s =>
         {
             s.Summary = "List all customers";
-            s.Description = "Returns a list of all customers";
+            s.Description = "Returns a list of all customers (Admin only)";
         });
     }
 

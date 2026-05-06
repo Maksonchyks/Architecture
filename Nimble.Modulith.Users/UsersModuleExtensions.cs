@@ -48,6 +48,18 @@ public static class UsersModuleExtensions
         var context = scope.ServiceProvider.GetRequiredService<UsersDbContext>();
         await context.Database.EnsureCreatedAsync();
 
+        // Seed roles programmatically — idempotent, safe to run on every startup
+        var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        string[] roles = ["Admin", "Customer"];
+
+        foreach (var role in roles)
+        {
+            if (!await roleManager.RoleExistsAsync(role))
+            {
+                await roleManager.CreateAsync(new IdentityRole(role));
+            }
+        }
+
         return app;
     }
 }
