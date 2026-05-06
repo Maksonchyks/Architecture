@@ -15,9 +15,6 @@ public class UsersDbContext : IdentityDbContext<IdentityUser>
     {
         base.OnModelCreating(builder);
 
-        // Apply Users module specific configurations
-        builder.HasDefaultSchema("Users");
-
         // Auto-discover all IEntityTypeConfiguration<T> — picks up IdentityRoleConfig for role seeding
         builder.ApplyConfigurationsFromAssembly(typeof(UsersDbContext).Assembly);
     }
