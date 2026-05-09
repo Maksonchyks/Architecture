@@ -10,6 +10,8 @@ var usersDb = sqlServer.AddDatabase("usersdb");
 var productsDb = sqlServer.AddDatabase("productsdb");
 var customersDb = sqlServer.AddDatabase("customersdb");
 
+var reportingDb = sqlServer.AddDatabase("reportingdb");
+
 // Papercut SMTP container for email testing in development
 var papercut = builder.AddContainer("papercut", "jijiechen/papercut", "latest")
     .WithEndpoint("smtp", e =>
@@ -31,9 +33,11 @@ builder.AddProject<Projects.Nimble_Modulith_Web>("webapi")
     .WithReference(usersDb)
     .WithReference(productsDb)
     .WithReference(customersDb)
+    .WithReference(reportingDb)
     .WaitFor(usersDb)
     .WaitFor(productsDb)
     .WaitFor(customersDb)
+    .WaitFor(reportingDb)
     .WaitFor(papercut);
 
 builder.Build().Run();

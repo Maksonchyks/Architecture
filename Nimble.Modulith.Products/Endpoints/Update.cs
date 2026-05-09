@@ -9,6 +9,7 @@ public class UpdateProductRequest
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
+    public decimal UnitPrice { get; set; }
 }
 
 public class UpdateProductResponse
@@ -16,6 +17,7 @@ public class UpdateProductResponse
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
+    public decimal UnitPrice { get; set; }
     public DateTime DateCreated { get; set; }
     public string CreatedByUser { get; set; } = string.Empty;
 }
@@ -49,6 +51,7 @@ public class Update(ProductsDbContext dbContext) : Endpoint<UpdateProductRequest
 
         product.Name = req.Name;
         product.Description = req.Description;
+        product.UnitPrice = req.UnitPrice;
 
         await _dbContext.SaveChangesAsync(ct);
 
@@ -57,6 +60,7 @@ public class Update(ProductsDbContext dbContext) : Endpoint<UpdateProductRequest
             Id = product.Id,
             Name = product.Name,
             Description = product.Description,
+            UnitPrice = product.UnitPrice,
             DateCreated = product.DateCreated,
             CreatedByUser = product.CreatedByUser
         };
