@@ -66,50 +66,6 @@ public class Confirm(IMediator mediator, ICustomerAuthorizationService authServi
             return;
         }
 
-        // Publish OrderCreatedEvent
-        var orderCreatedEvent = new OrderCreatedEvent(
-            result.Value.Id,
-            result.Value.CustomerId,
-            customerResult.Value.Email,
-            result.Value.OrderNumber,
-            result.Value.OrderDate,
-            result.Value.TotalAmount,
-            result.Value.Items.Select(i => new OrderItemDetails(
-                i.Id,
-                i.ProductId,
-                i.ProductName,
-                i.Quantity,
-                i.UnitPrice,
-                i.TotalPrice
-            )).ToList()
-        );
-
-        await mediator.Publish(orderCreatedEvent, ct);
-
-        // Send confirmation email
-        var emailBody = $@"
-Dear Customer,
-
-Your order has been confirmed!
-
-Order Number: {result.Value.OrderNumber}
-Order Date: {result.Value.OrderDate:yyyy-MM-dd}
-Total Amount: ${result.Value.TotalAmount:F2}
-
-Items:
-{string.Join("\n", result.Value.Items.Select(i => $"- {i.ProductName} x {i.Quantity} @ ${i.UnitPrice:F2} = ${i.TotalPrice:F2}"))}
-
-Thank you for your order!
-";
-
-        var emailCommand = new SendEmailCommand(
-            customerResult.Value.Email,
-            $"Order Confirmation - {result.Value.OrderNumber}",
-            emailBody
-        );
-
-        await mediator.Send(emailCommand, ct);
-
         // Map to response
         Response = new OrderResponse(
             result.Value.Id,

@@ -9,6 +9,7 @@ public class ProductListItem
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
+    public decimal UnitPrice { get; set; }
     public DateTime DateCreated { get; set; }
     public string CreatedByUser { get; set; } = string.Empty;
 }
@@ -41,6 +42,7 @@ public class List(ProductsDbContext dbContext) : EndpointWithoutRequest<ListResp
                 Id = p.Id,
                 Name = p.Name,
                 Description = p.Description,
+                UnitPrice = p.UnitPrice,
                 DateCreated = p.DateCreated,
                 CreatedByUser = p.CreatedByUser
             })

@@ -132,4 +132,30 @@ GET {{Nimble.Modulith.Web_HostAddress}}/orders/1
 ### List Orders by Date
 GET {{Nimble.Modulith.Web_HostAddress}}/orders/by-date/2025-10-24
 
-###
+### Confirm Order
+POST {{Nimble.Modulith.Web_HostAddress}}/orders/1/confirm
+
+
+### Reporting Module Tests
+
+### Get Orders Report (JSON)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/orders?startDate=2025-01-01&endDate=2025-12-31
+
+### Get Orders Report (CSV via query parameter)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/orders?startDate=2025-01-01&endDate=2025-12-31&format=csv
+
+### Get Orders Report (CSV via Accept header)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/orders?startDate=2025-01-01&endDate=2025-12-31
+Accept: text/csv
+
+### Get Product Sales Report (JSON)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/product-sales?startDate=2025-01-01&endDate=2025-12-31
+
+### Get Product Sales Report (CSV)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/product-sales?startDate=2025-01-01&endDate=2025-12-31&format=csv
+
+### Get Customer Orders Report (JSON)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/customers/1/orders
+
+### Get Customer Orders Report (CSV)
+GET {{Nimble.Modulith.Web_HostAddress}}/reports/customers/1/orders?format=csv
